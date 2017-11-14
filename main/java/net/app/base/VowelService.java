@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class VowelService {
 
-    public String getFirstVowel(String text) throws VowelNotFoundException {
+    public String getFirstVowel(String text) {
         ValidStream stream = new ValidStream(text);
         String vowel = "";
         // Recupero a quantidade de cada vogal no texto
